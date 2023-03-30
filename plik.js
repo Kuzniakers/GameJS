@@ -33,7 +33,7 @@ function sprawdz()
     } 
     else 
     {
-      answer.innerHTML = "Brawo !!! Zgadłeś za " + i + " razem";
+      answer.innerHTML = "Brawo ! Udało Ci się odgadnąć liczbę za " + i + " razem";
       answer.classList.add("good");
       button.innerHTML = "Odśwież";
       button.removeEventListener("click", sprawdz);
